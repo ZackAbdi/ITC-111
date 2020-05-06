@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>sign in</title>
+    <style>
+    .container{
+    background-color:#808080;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px #000 solid; 
+    width: 20%; 
+    }
+    #mainheader{
+        background-color: #bebdbd;
+        text-align: center;
+        color: #1d1c1c;
+        padding: 10px;
+    }
+    #formdata{
+        margin: 0 auto;
+        text-align: center;
+        color: #1d1c1c;
+        padding: 10px; 
+    }
+</style>
+</head>
+<body>
+    <div class=container>
+        <header id=mainheader>
+            need an account
+                <a href="register.html"> register</a>
+    
+        </header>
+
+        <section>
+            <form action="formphp.php" method="post">
+                <div id="formdata">
+                    <div class="label">
+                        <label>username</label>
+                     </div>
+                    <input type="text" name="username">
+                    <div>
+                    <label for="password"></label>
+
+                    </div>
+                <input type="password" name="password">
+                <br>
+                <br>
+                <a href="#">forgot username</a>&nbsp;&nbsp;
+                <a href="#">forgot password</a>
+                </div>
+
+            </form>
+
+        </section>
+
+    </div>
+    
+</body>
+</html>
